@@ -1,4 +1,4 @@
-# Mathmaster foo
+# Mathmaster foo bar
 
 
 ## Getting started
