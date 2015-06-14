@@ -1,4 +1,4 @@
-# Price list
+# Mathmaster
 
 
 ## Getting started
