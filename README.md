@@ -1,4 +1,4 @@
-# Mathmaster
+# Mathmaster foo
 
 
 ## Getting started
