@@ -1,0 +1,22 @@
+module.exports = {
+  "data" : [
+              {
+                "changedate" : "2015-04-02",
+                "interestRate" : 0.99,
+                "dimid" : 301,
+                "dimidname" : "super 1"
+              },
+              {
+                "changedate" : "2015-05-12",
+                "interestRate" : 5.75,
+                "dimid" : 289,
+                "dimidname" : "some weired name"
+              },
+              {
+                "changedate" : "2015-05-01",
+                "interestRate" : 6.25,
+                "dimid" : 246,
+                "dimidname" : "some other name"
+              }
+            ]
+}
