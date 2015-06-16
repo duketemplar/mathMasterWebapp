@@ -1,4 +1,4 @@
-# Mathmaster foo bar
+# MathMasterWebapp
 
 
 ## Getting started
@@ -31,4 +31,11 @@ npm install
 * `npm run build` - Run a production build
 * `npm run localbuild` - Run a production build for local testing
 * `npm run lint` - Run a lint of the source code
+
+
+```js
+// Filename: app.jsx
+import 'normalize.css/normalize.css';
+import './scss/app.scss';
+```
 
