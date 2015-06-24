@@ -27,10 +27,10 @@ module.exports = function (config) {
     frameworks: [ 'mocha', 'chai', 'sinon-chai'], //use the mocha test framework
 
     files: [
-      './test/foo.js' //just load this file
+      'tests.webpack.js' // './test/foo.js' //just load this file
     ],
     preprocessors: {
-      './test/testRootLoader': [ 'webpack', 'sourcemap' ] //preprocess with webpack and a sourcemap loader
+      'tests.webpack.js': [ 'webpack', 'sourcemap' ] //preprocess with webpack and a sourcemap loader
     },
     reporters: [ 'progress', 'junit', 'coverage' ],
 
