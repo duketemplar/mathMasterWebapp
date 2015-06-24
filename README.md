@@ -6,7 +6,7 @@
 Clone the project:
 
 ```bash
-git clone https://robsan@scm.prod.nordnet.se/scm/dl/app-interest-history.git
+git clone https://github.com/duketemplar/mathMasterWebapp.git
 ```
 
 Install node and npm (recommended via nvm - https://www.npmjs.com/package/nvm).
@@ -18,8 +18,8 @@ Recommended versions:
 Install all dependencies
 
 ```bash
-npm set registry http://sinopia.prod.nordnet.se
 npm install
+
 ```
 
 ## npm scripts

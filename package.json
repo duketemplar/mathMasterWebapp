@@ -21,9 +21,9 @@
     "prelint:jenkins": "rm -f reports/lintresult.xml && mkdir -p reports",
     "lint": "eslint --ext=.jsx --ext=.js -c .eslintrc src || echo \"Linting failed...\"",
     "lint:jenkins": "eslint -c .eslintrc src -f checkstyle  --ext=.jsx --ext=.js > reports/lintresult.xml",
-    "test": "./node_modules/karma-cli/bin/karma start ./test/config/karma.conf",
-    "test:debug": "./node_modules/karma-cli/bin/karma start ./test/config/karma.conf --no-single-run --reporters mocha,coverage --browsers Chrome",
-    "test:tdd": "./node_modules/karma-cli/bin/karma start --auto-watch --no-single-run ./test/config/karma.conf",
+    "test": "./node_modules/karma-cli/bin/karma start karma.conf",
+    "test:debug": "./node_modules/karma-cli/bin/karma start karma.conf --no-single-run --reporters mocha,coverage --browsers Chrome",
+    "test:tdd": "./node_modules/karma-cli/bin/karma start --auto-watch --no-single-run  karma.conf",
     "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js  --devtool eval-source-map --host localhost --port 9000 --content-base src"
   },
   "files": [
