@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="7"  lines-covered="7"  line-rate="1"  branches-valid="0"  branches-covered="0"  branch-rate="1"  timestamp="1435694275477" complexity="0" version="0.1">
+<sources>
+	<source>/Users/lordofeverything/Documents/__webbdesign__/applications/mathMasterWebapp</source>
+</sources>
+<packages>
+	<package name="__test__"  line-rate="1"  branch-rate="1" >
+	<classes>
+		<class name="questionPalette3.test.js"  filename="src/__test__/questionPalette3.test.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="1"  signature="()V" >
+				<lines><line number="5"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="1"  signature="()V" >
+				<lines><line number="7"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="1"  signature="()V" >
+				<lines><line number="9"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_4)"  hits="1"  signature="()V" >
+				<lines><line number="11"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="4"  hits="1"  branch="false" />
+			<line number="7"  hits="1"  branch="false" />
+			<line number="12"  hits="1"  branch="false" />
+			<line number="19"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="scripts.components.questionPalette.__test__"  line-rate="1"  branch-rate="1" >
+	<classes>
+		<class name="questionPalette2.test.js"  filename="src/scripts/components/questionPalette/__test__/questionPalette2.test.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="1"  signature="()V" >
+				<lines><line number="5"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="1"  signature="()V" >
+				<lines><line number="7"  hits="1" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="1"  hits="1"  branch="false" />
+			<line number="4"  hits="1"  branch="false" />
+			<line number="7"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+</packages>
+</coverage>

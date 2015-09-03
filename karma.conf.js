@@ -49,7 +49,7 @@ module.exports = function (config) {
     },
 
     junitReporter: {
-      outputFile: 'reports/test-results.xml',
+      outputFile: 'test/reports/test-results.xml',
       suite: ''
     },
 

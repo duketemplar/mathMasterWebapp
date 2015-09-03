@@ -1,6 +1,7 @@
 'use strict';
 var React = require('react');
 var Interests = require('./components/interest-history/interests.jsx');
+var Login = require('./components/login/login.jsx');
 
 var Overview = React.createClass({
 
@@ -8,6 +9,7 @@ var Overview = React.createClass({
 		return (
 			<div>
 				<Interests />
+				<Login />
 			</div>
 		);
 	}

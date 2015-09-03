@@ -1,3 +1,4 @@
+# Folders
 node_modules
 
 # Compiled source #
@@ -22,17 +23,17 @@ node_modules
  *.tar
  *.zip
   
-  # Logs and databases #
-  ######################
-  *.log
-  *.sqlite
-   
-   # OS generated files #
-   ######################
-   .DS_Store
-   .DS_Store?
-   ._*
-   .Spotlight-V100
-   .Trashes
-   ehthumbs.db
-   Thumbs.db
+# Logs and databases #
+######################
+*.log
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

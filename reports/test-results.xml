@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="PhantomJS 1.9.8 (Mac OS X 0.0.0)" package="" timestamp="2015-06-30T18:31:35" id="0" hostname="Robins-MacBook-Pro.local" tests="3" errors="0" failures="1" time="0.001">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34"/>
+    </properties>
+    <testcase name="should add numbers" time="0" classname="PhantomJS 1.9.8 (Mac OS X 0.0.0).When adding numbers"/>
+    <testcase name="should add numbers" time="0.001" classname="PhantomJS 1.9.8 (Mac OS X 0.0.0).When adding numbers">
+      <failure type="">TypeError: &apos;undefined&apos; is not a function (evaluating &apos;expect(5).toEqual(5)&apos;)
+    at /Users/lordofeverything/Documents/__webbdesign__/applications/mathMasterWebapp/tests.webpack.js:89:0 &lt;- webpack:///test/button.test.js:10:8
+</failure>
+    </testcase>
+    <testcase name="should add numbers" time="0" classname="PhantomJS 1.9.8 (Mac OS X 0.0.0).When adding numbers"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>
